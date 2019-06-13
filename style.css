@@ -1,1 +1,12 @@
+body {
+    background-color: grey;
+    color: grey;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    width: 960px;
+}
 
+.id {
+    background: white;
+    width: 495px;
+}
