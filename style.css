@@ -3,10 +3,101 @@ body {
     color: grey;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
-    width: 960px;
 }
 
-.id {
-    background: white;
-    width: 495px;
+.header {
+    color: grey;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 4px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.nav {
+    color: grey;
+    background-color: white;
+    padding: 45px ;
+    
+    margin-bottom: .3px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+}
+
+.main {
+    background-color: grey;
+    text-align: center;
+    margin: 0 100px;
+}
+
+#section {
+    width: 55%;
+    height: 300px;
+    padding: 20px;
+    float: left;
+    background-color: white;
+    color: grey;
+    margin-top: 40px;
+    
+}
+
+#aside {
+    width: 33%;
+    height: 300px;
+    padding: 20px;
+    float: right;
+    background-color: white;
+    color: grey;
+    margin-top: 40px;
+}
+
+.articleBC {
+    background-color: grey;
+    padding: 5px;
+}
+
+#article {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+
+}
+
+#h {
+    background-color: white;
+    color: grey;
+    padding: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#p {
+    background-color: white;
+    color: grey;
+    padding: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.clearfix::after {
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.footer {
+    color: grey;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    position: relative;
+    margin-top: 40px;
 }
